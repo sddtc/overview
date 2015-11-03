@@ -11,48 +11,70 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link href="/images/icon.gif" rel="shortcut icon">
 <style type="text/css">
+html body {
+    height: 100%;
+}
 .emoji {
     width: 1.0em;
     height: 1.0em;
     display: inline-block;
 }
-
 a {
     text-decoration: none;
-    color: #CE3E97;
+    color: #E24E27;
 }
+.body {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+.body span {
+    color: #E24E27;
+}
+
+.body ul li div {
+    display: inline-block;
+    color: #E24E27;
+}
+
+#likeimg {
+    width: 400px;
+    height: 200px;
+}
+
+.footer {
+position: fixed;
+left:50%;
+bottom:0px;
+font-size:6px;
+}
+
 </style>
 </head>
-
 <body>
 <div class="head">
-<h4>coffee in,code out :coffee:</h4>
-My name is ChangHui, I'm a Coder in Beijing :relaxed:
+coffee in,code out :coffee: | My name is ChangHui, I'm a Coder in Beijing :relaxed: 
 </div>
 <div class="body">
-
-<h5>My work</h5>
+<div><img src="images/0.jpg" id="likeimg"></img></div>
+<span>My work</span>
 <ul>
-    <li>2011-2013 java website develop.
-        <div>SSH, Servlet, JSP</div>
-    </li>
+    <li>2011-2013 java website develop.<div>Spring3, Hibernate, Struts2, Servlet2.5, JSP, Jdk1.5</div></li>
     <li>2013-2014 Develop about flowplayer, handle Audio and Video transcoding, Html5.
         <div>Sometimes I do project to download video from Many Websites like Bilibili, Tudou, Youku etc., When they had not combine.</div>
     </li>
-    <li>2014-2015 in an little but fast growning Internet company, as a Java Development Engineer.
-        <div>SpringMVC, Mybatis, Redis, Distributed system, RPC Service</div>
-    </li>
+    <li>2014-2015 in an little but fast growning Internet company, as a Java Development Engineer.<div>SpringMVC3, Mybatis, Redis, Distributed system, RPC Service</div></li>
 </ul>
-<h5>My projects</h5>
+<span>My projects</span>
 <ul>
-    <li><a href="https://github.com/sddtc/scrapy" target="_blank">爬虫-v0.0.1</a>(Python, Scrapy)
-        <div>It can download Douban.com Picture Album, But I had not update it, I will do it, Not only Douban..</div>
+    <li><a href="https://github.com/sddtc/scrapy" target="_blank">Scrapy-v0.0.1</a>(Python, Scrapy)
+        <div>It can download Douban.com Picture Album, Collect Information save to Redis</div>
     </li>
     <li><a href="https://github.com/sddtc/couple" target="_blank">Couple</a>,Yes,We are couple.
         <div>It is a java website, But I'm delay..</div>
     </li>
     <li><a href="https://github.com/sddtc/fanji" target="_blank">Fanji</a>, Maybe I can write something in it, Use it With Bilibili.tv
-        <div>I'm delay too, I'm a very lazy Coder...</div></li>
+        <div>Something can help you</div></li>
     <li><a href="https://github.com/sddtc/gator" target="_blank">Tools</a>(Sqoop,Hbase,MapReduce,Redis client etc.)
         <div>doing..</div></li>
     <li><a href="https://github.com/sddtc/snowball">Snowball API</a>
@@ -61,7 +83,7 @@ My name is ChangHui, I'm a Coder in Beijing :relaxed:
         <div>doing..</div>
     </li>
 </ul>
-<h5>My life</h5>
+<span>My life</span>
 <ul>
     <li>Developing iOS 8 Apps with Swift, Lecture 9</li>
     <li>Read[图解HTTP]and[JVM高级]</li>
@@ -73,14 +95,10 @@ My name is ChangHui, I'm a Coder in Beijing :relaxed:
     <li>I want do some Web Games.</li>
     <li>Study Linux Shell.</li>
 </ul>
-
-I want to be a Coder, She can do her best. :flushed:
-
-<div><img src="images/0.jpg"></img></div>
+I want to be a Coder, She can do her best. :flushed: :flushed: :flushed: 
 </div>
-<div class="footer">
-    <a href="http://homuralovelive.com/">@find me</a>:facepunch:
-</div>
+
+<div class="footer"><a href="http://homuralovelive.com/">@sddtc</a> :facepunch: </div>
 
 <script src="emojify.min.js"></script>
 <script>
@@ -95,8 +113,6 @@ I want to be a Coder, She can do her best. :flushed:
 
   ga('create', 'UA-46032200-1', 'auto');
   ga('send', 'pageview');
-
 </script>
 </body>
-
 </html>
