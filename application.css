@@ -17,6 +17,10 @@ body {
 	height: 100%;
 }
 
+.head {
+		font-size: 16px;
+}
+
 .emoji {
     width: 1.0em;
     height: 1.0em;
@@ -30,6 +34,7 @@ a {
 
 body span {
     color: #E24E27;
+		font-size: 16px;
 }
 
 body ul li div {
