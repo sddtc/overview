@@ -17,8 +17,9 @@ body {
 	height: 100%;
 }
 
-.head {
-		font-size: 16px;
+.header {
+	font-size: 28px;
+	color: #48B0CC;
 }
 
 .emoji {
@@ -32,19 +33,14 @@ a {
     color: #E24E27;
 }
 
-body span {
+body p {
     color: #E24E27;
-		font-size: 16px;
+	font-size: 16px;
 }
 
-body ul li div {
-    display: inline-block;
-    color: #E24E27;
-}
-
-#likeimg {
-    width: 400px;
-    height: 200px;
+body ul li{
+    color: #5BB9D2;
+	list-style-type: none;
 }
 
 .footer {
